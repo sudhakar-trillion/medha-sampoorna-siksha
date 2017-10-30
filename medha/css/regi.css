@@ -1,0 +1,176 @@
+@charset "utf-8";
+ .header h1 {
+	    font-family: 'Oswald';
+    color: #d1e009;
+	font-size:42px;
+    margin-top: 42px;
+    /* margin-bottom: 3px !important; */
+    /* vertical-align: middle; */
+    text-transform: uppercase;
+}
+.header h3{
+	font-family:'Oswald';
+	font-size:22px;
+	letter-spacing:0.7px;
+	color:#fff;
+	line-height:30px;
+}
+.header{
+	margin-bottom:40px;
+}
+.Reg_table h4{
+	background: #eee;
+    padding: 10px 15px;
+    text-align: left;
+    display: block;
+    font-family: 'Oswald';
+    letter-spacing: 0.5px;
+}
+/*.Reg_table, .Reg_form, .bottom_content{
+	padding:0px 30px;
+}*/
+.Reg_table{
+	margin-bottom:30px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+.main{
+	border:1px solid #0054a6;
+	margin-top:30px;
+	margin-bottom:35px;
+}
+.header{
+	background:#5fa6ec;
+	    padding: 8px 0px;
+}
+.logo img{
+	padding-top:22px;
+}
+.rmt{
+	margin-top:0px;
+}
+.bottom_content{
+}
+.bottom_content p{
+	    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.color{
+	color:#0054a6;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:16px;
+}
+.op{
+	float:right;
+	font-weight:bold;
+}
+.form-horizontal .control-label {
+    padding-top: 7px;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: left;
+}
+input.cons {
+    padding-right: 8px;
+    margin-right: 10px;
+    margin-top: 0px;
+    position: relative;
+    top: 2px;
+	cursor:pointer;
+}
+.Reg_table table{
+	margin-bottom:30px;
+}
+.life{
+	    color: #0054a6;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+#name_err, #age_err, #sex_err, #mci_err, #add_err, #email_err, #tel_err, #mob_err, #dd_err, #dra_err, #tran_err, #cons_err, #nonlife_err, #work_err{
+	color:#f00;
+	font-size:13px;
+}
+#nonlife_err, #cons_err, #work_err{
+	float:left;
+}
+.control-label.pad{
+	padding:0px;
+	margin-top:0px !important;
+	margin-bottom:5px;
+	text-transform:uppercase;
+}
+.pl{
+	padding-left:0px;
+}
+.pr{
+	padding-right:0px;
+}
+.reser{
+	    width: 25%;
+    float: left;
+    margin-bottom: 13px;
+}
+
+
+.reser input{
+	    /* padding-right: 10px; */
+    margin-right: 3px;
+    /* width: 50%; */
+    /* margin-top: 8px; */
+    vertical-align: top;
+    /* padding-top: 13px; */
+}
+.mb{
+	margin-bottom:10px;
+}
+.Schoolstamp{
+	height:230px;
+	border:1px solid #eee;
+	/*margin-bottom:10px;*/
+	padding:5px;
+	
+}
+.Schoolstamp img{
+	height:217px;
+}
+.file .form-control{
+	    border: 1px solid #e5e5e5;
+    border-radius: 0px;
+    box-shadow: none;
+    padding: 5px 10px;
+	    border-top: 0px;
+}
+.file p{
+	/*font-weight:bold;*/
+}
+.tick {
+	
+	padding-top:30px;
+	font-weight:bold;
+}
+.submit_btn{
+	margin-bottom:30px;
+	
+}
+.exam-dis input{
+	    /* padding-top: 5px; */
+    position: relative;
+    /* margin-top: 5px; */
+    top: 2px;
+}
